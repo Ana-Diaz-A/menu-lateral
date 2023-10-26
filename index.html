@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú lateral</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!--FUENTES-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"> <!--CSS-->
+</head>
+
+<body>
+    <nav>
+        <div class="sidebar-top"> <!--LOGO-->
+          <a href="#" class="logo__wrapper">
+            <img src="img/logo.jpg" alt="Logo" class="logo"> <!--IMG-->
+            <h1 class="hide">ADA</h1>
+          </a>
+          <div class="expand-btn"> <!--BOTON EXPANDIR MENÚ-->
+            <img src="img/flecha.svg" alt="Chevron"> <!--IMG-->
+          </div>
+        </div>
+
+        <div class="sidebar-links"> <!--ENLACES DEL MENÚ LATERAL-->
+            <ul>
+              <li> <!--ENLACE 1-->
+                <a href="#panel" title="Panel" class="tooltip"> 
+                  <img src="img/panel.svg" alt="Panel"> <!--IMG-->
+                  <span class="link hide">Panel</span>
+                  <span class="tooltip__content">Panel</span>
+                </a>
+              </li>
+
+              <li> <!--ENLACE 2-->
+                <a href="#proyecto" title="Proyecto" class="tooltip"> 
+                  <img src="img/proyecto.svg" alt="Proyecto"> <!--IMG-->
+                  <span class="link hide">Proyecto</span>
+                  <span class="tooltip__content">Proyecto</span>
+                </a>
+              </li>
+              
+              <li> <!--ENLACE 3-->
+                <a href="#graficas" title="Graficas" class="tooltip">
+                  <img src="img/graficas.svg" alt="Graficas"> <!--IMG-->
+                  <span class="link hide">Gráficas</span>
+                  <span class="tooltip__content">Gráficas</span>
+                </a>
+              </li>
+
+              <li> <!--ENLACE 4-->
+                <a href="#fondos" title="Fondos" class="tooltip">
+                  <img src="img/fondos.svg" alt="Fondos"> <!--IMG-->
+                  <span class="link hide">Fondos</span>
+                  <span class="tooltip__content">Fondos</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="sidebar-bottom"> <!--ENLACES DEL MENÚ LATERAL DE ABAJO-->
+            <div class="sidebar-links">
+              <ul>
+                <li> <!--ENLACE 1-->
+                  <a href="#ayuda" title="Ayuda" class="tooltip">
+                    <img src="img/ayuda.svg" alt="Ayuda"> <!--IMG-->
+                    <span class="link hide">Ayuda</span>
+                    <span class="tooltip__content">Ayuda</span>
+                  </a>
+                </li>
+
+                <li> <!--ENLACE 2-->
+                  <a href="#ajustes" title="Ajustes" class="tooltip">
+                    <img src="img/ajustes.svg" alt="Ajustes">
+                    <span class="link hide">Ajustes</span>
+                    <span class="tooltip__content">Ajustes</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="sidebar__profile"> <!--PERFIL-->
+              <div class="avatar__wrapper">
+                <img class="avatar" src="img/perfil.png" alt="Profile"> <!--IMG-->
+                <div class="online__status"></div>
+              </div>
+
+              <div class="avatar__name hide">
+                  <div class="user-name">Ana D.</div>
+                  <div class="email">ada@gmail.com</div>
+              </div>
+            </div>
+          </div>
+      </nav>
+
+      <script src="script.js"></script> <!--JS-->
+</body>
+</html>
